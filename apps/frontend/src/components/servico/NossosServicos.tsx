@@ -2,7 +2,7 @@
 import { Servico } from '@barba/core'
 import { useRouter } from 'next/navigation'
 import ServicoItem from './ServicoItem'
-import useServicos from '@/data/hooks/useServicos'
+import { useServicos } from '@barba/ui'
 import Titulo from '../shared/Titulo'
 
 export default function NossosServicos() {
